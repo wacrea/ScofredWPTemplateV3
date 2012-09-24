@@ -1,0 +1,92 @@
+/*
+Theme Name: Template Blog de Scofred
+Theme URI: http://www.Scofred.com/
+Description: Wordpress template for Scofred blog
+Version: 3.0
+Author: William AGAY 
+*/
+
+@font-face {
+    font-family: 'IgniteMeBoldItalic';
+    src: url('font/igniteme_bold-webfont.eot');
+    src: url('font/igniteme_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/igniteme_bold-webfont.woff') format('woff'),
+         url('font/igniteme_bold-webfont.ttf') format('truetype'),
+         url('font/igniteme_bold-webfont.svg#IgniteMeBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{background: url('images/bg.jpg') #ccc; margin: 0px; padding: 0px;}
+
+#page{width: 940px;margin:auto;}
+
+a img{border:none;}
+a{text-decoration:none;color: #6b6b6b;}
+
+p{font-family: 'Oswald', 'arial';text-shadow: 0px 1px 1px #fff;font-weight: 300;}
+
+h1,h2,h3,h4,h5,h6{font-family: 'Oswald', 'arial';text-shadow: 0px 1px 1px #fff;}
+button, input[type=submit]{cursor: pointer;padding: 4px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;border:1px solid grey;}
+button, input[type=submit]:hover{background: #ccc;}
+button, input[type=submit]:active{background: grey;}
+
+textarea{font-family: 'arial';-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;border:1px solid grey;}
+
+.barre{background:url('images/opa_black_30.png');width: 100%;height: 40px;position:absolute;left:0;right: 0;top:0;}
+.barre .lang{width: 200px;height: 40px;margin:auto;text-align:center;}
+.barre .lang nav a{-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;line-height: 40px;background:grey;padding: 5px;margin-left: 10px;margin-right: 10px;font-size: 15px;color: #fff;font-family: 'Oswald', 'arial';text-shadow: 0px 1px 1px #000;}
+.barre .lang nav a:hover{color: #000;text-shadow: 0px 1px 1px #fff;}
+.barre .lang nav a.all{background:orange;}
+#header{width: 940px;height: 220px;margin:auto;border-bottom: 1px solid grey;margin-top: 40px;margin-bottom: 20px;}
+#header #logo{text-align:center;float:left;height: 200px;background: url('images/opa_black_30.png');width:180px;-webkit-border-bottom-right-radius: 12px;-webkit-border-bottom-left-radius: 12px;-moz-border-radius-bottomright: 12px;-moz-border-radius-bottomleft: 12px;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;}
+#header #logo:hover{background: url('images/opa_black_60.png');}
+#header #logo .cigle{font-family: 'IgniteMeBoldItalic', 'Arial';color: #FFF;font-size: 150px;text-shadow: 0px 1px 1px #636363;margin-top: 0;}
+#header #logo .nom{position:absolute;text-transform: UPPERCASE;top: 190px;margin-left: 5px;font-family:'Arial';text-shadow: 0px 1px 1px #636363;}
+#header a{text-decoration:none;color: #fff;}
+
+#header #menu{float:left;}
+#header #menu nav{}
+#header #menu nav ul{list-style-type:none;margin-top: 100px;}
+#header #menu nav ul li{display:inline;font-size: 20px;margin-right: 30px;}
+#header #menu nav ul li a{color: #000;font-family: 'Oswald', 'arial';text-shadow: 0px 1px 1px #fff;}
+#header #menu nav ul li a:hover{color: grey;}
+
+#header .recherche{float:right;margin-top: 80px;}
+#header .recherche input[type="text"]{padding: 4px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;border:1px solid grey;}
+
+#header .social{float:right;margin-top: 20px;}
+#header .social img{margin-left: 20px;}
+
+#featured{width: 940px;height: 250px;background:url('images/opa_black_30.png');margin-bottom: 20px;}
+
+#articles{float:left;width: 620px;}
+#articles .article{background:url('images/opa_black_30.png');height: 250px;width: 620px;margin-bottom: 20px;border: 1px solid grey;}
+#articles .article:hover{background:url('images/opa_black_60.png');border:1px solid grey;}
+#articles .nothumb{margin-left: 200px;margin-top: 20px;}
+#articles .meta_nothumb{width: 620px;height: 75px;background:url('images/opa_black_30.png');text-align:center;border-top: 1px solid grey;}
+a .article .meta_nothumb h2{color: #fff;font-family: 'Oswald', 'Arial';text-shadow: 0px 1px 1px #000;}
+a .article .meta_nothumb h2:hover{color: #ccc;}
+#articles .meta_thumb{width: 620px;height: 75px;margin-top: 175px;background:#000;opacity: 0.8;text-align:center;border-top: 1px solid grey;}
+a .article .meta_thumb h2{color: #fff;font-family: 'Oswald', 'Arial';text-shadow: 0px 1px 1px #000;}
+a .article .meta_thumb h2:hover{color: #ccc;}
+
+#pagination{margin-top: 50px;font-family:'Oswald', 'Arial';}
+#pagination a{color:grey;}
+
+#sidebar{float:right;border-left: 1px solid grey; padding: 20px;width: 250px;}
+#sidebar .side_elem{margin-top: -20px;}
+#sidebar .side_elem h2{color: #000;font-family: 'Oswald', 'arial';text-shadow: 0px 1px 1px #fff;}
+#sidebar .side_elem ul{list-style-type: square;}
+#sidebar .side_elem ul li{margin-bottom: 10px;}
+#sidebar .side_elem ul li a{color: #000;font-family: 'Oswald', 'arial';text-shadow: 0px 1px 1px #fff;}
+#sidebar .side_elem ul li a:hover{color: grey;}
+
+#single{font-family: 'Oswald', 'arial';font-weight:300;width:620px;}
+#single #meta{float:left;color: #000;width: 620px;font-family: 'Oswald', 'arial';font-weight: 400;text-shadow: 0px 1px 1px #fff;margin-bottom: 40px;border-bottom: 1px solid grey;padding-bottom: 10px;}
+#single #meta2{font-weight: 400;width: 620px;float:left;margin-top: 20px;border-bottom: 1px solid grey;padding-bottom: 10px;border-top: 1px solid grey;padding-top: 10px;}
+#single #comments_div{float:left;}
+
+#footer{padding-top: 30px;width: 100%;height: 60px;margin-top: 50px;float:left;border-top: 1px solid grey;background:url('images/opa_black_30.png');text-align:center;}
+#footer a{font-size: 20px;color: #000;font-family: 'Oswald', 'arial';text-shadow: 0px 1px 1px #fff;}
+#footer a:hover{color: grey;}
