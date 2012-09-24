@@ -1,0 +1,1 @@
+This wordpress template was designed & developed by William AGAY. You can use it and modify it but if you cite the source, it's better :).
